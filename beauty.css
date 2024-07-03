@@ -1,0 +1,64 @@
+.primarycolor {
+   color: #00ffff;
+}
+.navigation {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 30px;
+}
+.logo {
+    font-size: 40px;
+    margin-right: 300px;
+}
+header {
+    background-color: #FFF8F3;
+    background-image: url(./img/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-right: 30px;
+}
+nav li {
+    list-style: none;
+    margin: 0px 10px 0px 20px;
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+    /* margin-right: 50px; */
+    
+}
+nav button {
+    background-color: #00ffff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Bacground image */
+/* .bacgroungimg {
+    position: absolute;
+    display: flex;
+
+} */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding: 30px 30px 0px 0px;
+
+}
+.prof {
+    /* margin-right: 30px; */
+    /* background-position: absolute; */
+
+}
+.bannertxt {
+    text-wrap: balance;
+}
